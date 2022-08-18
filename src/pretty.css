@@ -1,0 +1,73 @@
+:root {
+  --primary-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-font: system-ui;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--primary-font);
+}
+h1 {
+  font-size: 100px;
+}
+
+.nav-links {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.contact-nav {
+  background-color: rgb(219, 177, 219);
+  color: white;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: var(--primary-shadow);
+}
+.about-nav {
+  background-color: rgb(219, 177, 219);
+  color: white;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: var(--primary-shadow);
+}
+.about-nav:hover {
+  background-color: white;
+  color: rgb(219, 177, 219);
+  text-decoration: none;
+}
+.contact-nav:hover {
+  background-color: white;
+  color: rgb(219, 177, 219);
+  text-decoration: none;
+}
+.front-page {
+  margin-top: 35px;
+  padding: 30px;
+  text-align: center;
+}
+a.main-link-buttons {
+  font-size: 15px;
+  color: white;
+  border-radius: 4px;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: rgb(219, 177, 219);
+  box-shadow: var(--primary-shadow);
+}
+a.main-link-buttons:hover {
+  background-color: white;
+  color: rgb(219, 177, 219);
+}
+.main-pics {
+  background-color: rgb(240, 218, 240);
+  padding: 30px;
+}

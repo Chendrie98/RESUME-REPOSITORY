@@ -71,3 +71,12 @@ a.main-link-buttons:hover {
   background-color: rgb(240, 218, 240);
   padding: 30px;
 }
+@media (max-width: 415px) {
+  h1 {
+    font-size: 75px;
+    line-height: 70px;
+  }
+  h2 {
+    margin-top: 20px;
+  }
+}
